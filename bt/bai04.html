@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bai 4</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: #f2f2f2;
+                height: 100vh;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+
+            input {
+                height: 60px;
+                width: 350px;
+                padding: 0px 10px;
+                text-align: left;
+                outline: none;
+                border: none;
+                font-size: 16px;
+            }
+            img {
+                width: 55px;
+                height: 55px;
+            }
+
+            button {
+                display: block;
+                margin: 15px;
+                background: blue;
+                outline: none;
+                border: none;
+                height: 60px;
+                padding: 0 30px;
+                border-radius: 5px;
+                color: white;
+                cursor: pointer;
+            }
+            h1{
+                font-size: 40px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./images/logp.png"/>
+        <h1>Gửi lời mời tham gia sự kiện</h1>
+        <form>
+            <p>Hãy nhập e-mail người mà bạn muốn gửi lời mời</p>
+            <input 
+            type="text" 
+            placeholder="Enter Email"
+            />
+            <button>
+                GỬI LỜI MỜI!
+            </button>
+        </form>
+    </body>
+</html>
